@@ -13,7 +13,7 @@ pipeline {
         maven 'Maven-3.9'
     }
     environment {
-        IMAGE_NAME = 'nirvanb/demo-app:jma-1.1'
+        IMAGE_NAME = 'nirvanb/demo-app:jma-1.0'
     }
     stages {
         // stage('increment version') {
